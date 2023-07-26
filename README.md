@@ -54,3 +54,10 @@ Shutting down the containers
 - Tickets:
     - /api/tickets/?page=1&per_page=15
     - /api/tickets/:id
+ 
+## Screenshot of Welcome Page
+
+Changed welcome page to make API testing easier
+
+![2023-07-26_00-29](https://github.com/Darkmyes/digital_root_backend_challenge/assets/30057827/f18475e3-127a-4d81-9da6-e2e92c1a2835)
+
