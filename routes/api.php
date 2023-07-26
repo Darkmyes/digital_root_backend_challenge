@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\FlightController;
+use App\Http\Controllers\TicketController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,5 +22,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::resource('flights', FlightController::class)->only([
+    'index', 'show'
+]);
+
+Route::resource('tickets', TicketController::class)->only([
     'index', 'show'
 ]);
